@@ -1,8 +1,10 @@
 # bl-slim-steamos
 
+> This repository is about to transfer the bl-slim PowerShell script into Python to enable use for SteamOS.
+
 ![Disk Space Saver: Borderlands 4 189 GB to 57 GB, Borderlands 3 96 GB to 53 GB](docs/header.png)
 
-Shrinks a Borderlands install on Windows.
+
 ## Story
 
 Bl4 took up 189 GB. memory is expensive these days :(
