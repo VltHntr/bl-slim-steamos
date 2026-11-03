@@ -1,9 +1,16 @@
+> THIS IS A DEV BRANCH, USE IT ON YOUR OWN RISK
+
 # bl-slim-steamos
 
-> This repository is about to transfer the bl-slim PowerShell script into Python to enable use for SteamOS.
 
-![Disk Space Saver: Borderlands 4 189 GB to 57 GB, Borderlands 3 96 GB to 53 GB](docs/header.png)
 
+## About SteamOS/Python Port
+This repository is about to transfer the bl-slim PowerShell script into Python to enable use for SteamOS.
+It will also include a GUI to allow simpler and easier handling.
+
+This project currently supports removing unused voice language files from Borderlands 3 and Borderlands 4. It identifies language packs using known game file names and language mappings, then removes the files for languages you choose to discard. Cleanup of outdated patch data is not yet supported.
+
+Removing voice files works by deleting complete files. Reclaiming space from outdated data inside large game files is more complicated: the current Windows version uses NTFS sparse-file features to release unused byte ranges without changing the files’ logical contents. SteamOS commonly uses ext4, which does not provide the same interface for this operation. Supporting partial-file cleanup on Linux would require a separate implementation and may depend on external dependencys. It may therefore not be available on every SteamOS setup.
 
 ## Story
 
