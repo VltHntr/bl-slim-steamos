@@ -1,4 +1,4 @@
-# bl-slim
+# bl-slim-steamos
 
 ![Disk Space Saver: Borderlands 4 189 GB to 57 GB, Borderlands 3 96 GB to 53 GB](docs/header.png)
 
